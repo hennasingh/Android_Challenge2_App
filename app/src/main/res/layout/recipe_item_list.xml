@@ -29,14 +29,13 @@
 
     <TextView
         android:id="@+id/tv_recipe_title"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         tools:text="Recipe Title"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toEndOf="@id/iv_recipe_image"
         android:layout_marginStart="@dimen/dimen_8"
         android:layout_marginTop="@dimen/dimen_8"
-        android:lines="2"
         app:layout_constraintEnd_toEndOf="parent"
         android:textAppearance="@style/TextAppearance.AppCompat.Title"
         android:textColor="@color/accent_dark"/>
